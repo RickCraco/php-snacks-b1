@@ -13,8 +13,12 @@ $matches = [
         'homePoints' => 55,
         'awayPoints' => 111
     ]
-]
+];
 
+
+foreach($matches as $match){
+    echo $match['homeTeam'] . '-' . $match['awayTeam'] . '|' . $match['homePoints'] . '-' . $match['awayPoints'];
+}
 
 ?>
 
