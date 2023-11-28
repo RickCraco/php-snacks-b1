@@ -17,7 +17,7 @@ $matches = [
 
 
 foreach($matches as $match){
-    echo $match['homeTeam'] . '-' . $match['awayTeam'] . '|' . $match['homePoints'] . '-' . $match['awayPoints'];
+    echo $match['homeTeam'] . '-' . $match['awayTeam'] . '|' . $match['homePoints'] . '-' . $match['awayPoints'] . '<br>';
 }
 
 ?>
