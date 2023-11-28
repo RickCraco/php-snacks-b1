@@ -1,3 +1,25 @@
+<?php 
+// snack 1
+$matches = [
+    [
+        'homeTeam' => 'Los Angeles Lakers',
+        'awayTeam' => 'Brooklyn Nets',
+        'homePoints' => 82,
+        'awayPoints' => 68
+    ],
+    [
+        'homeTeam' => 'New Orleans Pelicans',
+        'awayTeam' => 'Chicago Bulls',
+        'homePoints' => 55,
+        'awayPoints' => 111
+    ]
+]
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
