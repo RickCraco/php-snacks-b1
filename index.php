@@ -36,7 +36,7 @@ if(isset($_GET['name']) && isset($_GET['mail']) && isset($_GET['age'])) {
     }
 } else {
     echo "Errore: Assicurati di compilare tutti i campi del form.";
-}
+} 
 
 
 
