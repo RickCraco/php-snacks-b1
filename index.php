@@ -20,6 +20,12 @@ foreach($matches as $match){
     echo $match['homeTeam'] . '-' . $match['awayTeam'] . '|' . $match['homePoints'] . '-' . $match['awayPoints'] . '<br>';
 }
 
+//fine snack 1
+
+//snack 2
+
+
+
 ?>
 
 
@@ -33,5 +39,18 @@ foreach($matches as $match){
 </head>
 <body>
     
+    <form action="index.php" method="get">
+        <label for="name">Name: </label>
+        <input type="text" name="name" required>
+
+        <label for="mail">Mail: </label>
+        <input type="text" name="mail" required>
+
+        <label for="age">Age: </label>
+        <input type="text" name="age">
+
+        <button type="submit">Submit</button>
+    </form>
+
 </body>
 </html>
